@@ -49,8 +49,9 @@ def feed_cats
   self.cats.each {|cats| cats.mood = "happy"} 
 end 
 def sell_pets 
-  self.cats.each do |cats| 
-    cats.delete(cats)
+  self.cats.each do |cat| 
+    cats.delete(cat)
+    return = nil
 end 
     
   

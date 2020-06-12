@@ -46,6 +46,11 @@ end
 def buy_dog(name)
   Dog.new(name,self)
 end 
+def walk_dog 
+  if self.dogs == walk_dog 
+    mood = "happy"
+  end 
+end 
     
   
 end

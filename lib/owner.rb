@@ -40,6 +40,15 @@ def list_pets
    
   puts Dog.all 
 end 
+def buy_cat 
+  buy_cat = Cat.new(name) 
+  list_pets.each do |name| 
+    if Cat.name
+      buy_cat
+    end 
+  end 
+end 
+    
   
 end
  

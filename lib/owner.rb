@@ -50,7 +50,7 @@ def feed_cats
 end 
 def sell_pets 
   self.cats.each do |cat| 
-    cats.delete(cat)
+    self.cat.delete(cat)
     return = nil
   end 
 end 

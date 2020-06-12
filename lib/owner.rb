@@ -62,8 +62,8 @@ def sell_pets
 end 
 def list_pets 
   number_of_dogs = self.dogs.count 
-  num"I have #{number_of_dogs} dog(s), and #{number_of_cats} cat(s)."ber_of_cats = self.cats.count 
-  
+  number_of_cats = self.cats.count
+  "I have #{number_of_dogs} dog(s), and #{number_of_cats} cat(s)."
 end 
     
   

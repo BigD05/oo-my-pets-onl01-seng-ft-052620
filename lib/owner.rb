@@ -47,6 +47,9 @@ end
 def walk_dogs 
   self.dogs.each {|dogs| dogs.mood = "happy"} 
 end 
+def feed_cats
+  self.cats.each {|cats| cats.mood = "happy"} 
+end 
     
   
 end

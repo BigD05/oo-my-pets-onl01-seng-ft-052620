@@ -36,9 +36,7 @@ def dogs
   Dog.all.select {|dog| dog.owner == self } 
 end 
 def list_pets 
-  puts  Cat.all 
-   
-  puts Dog.all 
+  
 end 
 def buy_cat(name)
   Cat.new(name,self)
@@ -46,7 +44,7 @@ end
 def buy_dog(name)
   Dog.new(name,self)
 end 
-def walk_dog 
+def walk_dogs 
   self.dogs.each {|dogs| dogs.mood = "happy"} 
 end 
     

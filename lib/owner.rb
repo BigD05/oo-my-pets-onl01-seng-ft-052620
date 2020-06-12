@@ -52,6 +52,7 @@ def sell_pets
   self.cats.each do |cat| 
     cats.delete(cat)
     return = nil
+  end 
 end 
     
   
